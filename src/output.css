@@ -554,17 +554,113 @@ video {
   display: none;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-\[auto\] {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
+.mb-\[10px\] {
+  margin-bottom: 10px;
+}
+
+.mb-\[150px\] {
+  margin-bottom: 150px;
+}
+
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
 }
 
 .flex {
   display: flex;
 }
 
+.h-\[192px\] {
+  height: 192px;
+}
+
+.h-\[220px\] {
+  height: 220px;
+}
+
+.h-\[245px\] {
+  height: 245px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[550px\] {
+  height: 550px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[620px\] {
+  height: 620px;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
+.w-\[1100px\] {
+  width: 1100px;
+}
+
+.w-\[1120px\] {
+  width: 1120px;
+}
+
+.w-\[270px\] {
+  width: 270px;
+}
+
+.w-\[500px\] {
+  width: 500px;
+}
+
+.w-\[550px\] {
+  width: 550px;
+}
+
+.w-\[590px\] {
+  width: 590px;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
 .max-w-\[1200px\] {
   max-width: 1200px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .items-center {
@@ -579,13 +675,56 @@ video {
   gap: 30px;
 }
 
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[15px\] {
+  gap: 15px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[25px\] {
+  gap: 25px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
+}
+
+.rounded-\[15px\] {
+  border-radius: 15px;
+}
+
+.rounded-\[5px\] {
+  border-radius: 5px;
 }
 
 .bg-\[\#FF3F3A\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 63 58 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#db5329\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 83 41 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#f8cfdf\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 207 223 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#f8d6e3\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 214 227 / var(--tw-bg-opacity, 1));
 }
 
 .p-\[10px_20px\] {
@@ -596,15 +735,147 @@ video {
   padding: 20px;
 }
 
+.p-\[25px\] {
+  padding: 25px;
+}
+
+.p-\[30px\] {
+  padding: 30px;
+}
+
+.p-\[50px\] {
+  padding: 50px;
+}
+
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.py-\[5px\] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.py-\[6px\] {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-\[16px\] {
   font-size: 16px;
+}
+
+.text-\[17px\] {
+  font-size: 17px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[21px\] {
+  font-size: 21px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[32px\] {
+  font-size: 32px;
+}
+
+.text-\[46px\] {
+  font-size: 46px;
 }
 
 .font-\[700\] {
   font-weight: 700;
 }
 
+.font-\[500\] {
+  font-weight: 500;
+}
+
+.font-\[600\] {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .text-\[\#FF3F3A\] {
   --tw-text-opacity: 1;
   color: rgb(255 63 58 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#1E212C\] {
+  --tw-text-opacity: 1;
+  color: rgb(30 33 44 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#777983\] {
+  --tw-text-opacity: 1;
+  color: rgb(119 121 131 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#8c8f94\] {
+  --tw-text-opacity: 1;
+  color: rgb(140 143 148 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#D7DADD\] {
+  --tw-text-opacity: 1;
+  color: rgb(215 218 221 / var(--tw-text-opacity, 1));
+}
+
+.text-\[white\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
